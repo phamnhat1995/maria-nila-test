@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /var/www/html
 git pull origin master
-
+sudo chown -R ubuntu:ubuntu /var/www/html

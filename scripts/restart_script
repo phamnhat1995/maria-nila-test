@@ -6,3 +6,5 @@ php bin/magento cache:clean
 php bin/magento cache:flush
 php bin/magento setup:di:compile
 php bin/magento indexer:reindex
+
+sudo chown -R ubuntu:ubuntu /var/www/html
